@@ -12,6 +12,10 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
+import java.util.function.IntFunction;
+import java.util.function.Supplier;
+import java.util.function.UnaryOperator;
+
 @SpringBootApplication
 @EnableFeignClients
 @EnableJpaAuditing(auditorAwareRef = "auditAwareImpl")

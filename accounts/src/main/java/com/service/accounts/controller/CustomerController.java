@@ -60,6 +60,4 @@ public class CustomerController {
         return ResponseEntity.status(HttpStatus.SC_OK).body(customerDetailsDto);
 
     }
-
-
 }
